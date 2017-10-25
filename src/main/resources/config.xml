@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+	<params>
+		<osdir       value="D:\maven_shop\chcit-mall\chcit-mall-product\src\main\java"></osdir>
+		<javapackage value="com.chcit.scm.mall"></javapackage>
+		<author      value="mazy"></author>
+		<project     value="project"></project>
+	</params>
+	<dataSource>
+		<driver   value="oracle.jdbc.OracleDriver"></driver>
+		<url      value="jdbc:oracle:thin:@192.168.20.240:1521:CHCINFODB"></url>
+		<username value="scm_b2b_dev"></username>
+		<password value="scm_b2b_dev"></password>
+	</dataSource>
+	<tables>
+		<table value="S_Product"></table>
+	</tables>
+</config>
